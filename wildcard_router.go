@@ -96,7 +96,7 @@ func (w *WildcardRouterWriter) Write(data []byte) (int, error) {
 
 func (w *WildcardRouterWriter) reset() {
 	w.skipNotFoundCheck = false
-	w.Header().Set("Content-Type", "")
+//	w.Header().Set("Content-Type", "")
 	w.status = 0
 }
 
